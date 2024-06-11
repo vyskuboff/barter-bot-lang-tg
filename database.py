@@ -15,12 +15,12 @@ class DatabaseManager:
                 phone_number TEXT NOT NULL,
                 balance BIGINT NOT NULL,
                 info TEXT,
-				mir_karta TEXT,
-				mir_account TEXT,
-				balance_mir_karta TEXT,
-				bcr_plast_karta_nomer TEXT,
-				bcr_plast_karta_srok TEXT,
-				bcr_plast_karta_cvv TEXT
+                mir_karta TEXT,
+                mir_account TEXT,
+                balance_mir_karta TEXT,
+                bcr_plast_karta_nomer TEXT,
+                bcr_plast_karta_srok TEXT,
+                bcr_plast_karta_cvv TEXT
             )
         ''')
 
